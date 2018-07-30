@@ -4,7 +4,7 @@
   "version":"1.0",
   "content_scripts":[
     {
-      "matches":["http://172.16.2.1:1000/login?*"],
+      "matches":["http://172.16.2.1:1000/login?*","http://172.16.2.1:1000/fgtauth?*"],
       "js":["jquery.js","main.js"]
     }
   ],
